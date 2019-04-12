@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin"
+    android:elevation="5dp"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/_title_text_image"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="dummy title" />
+
+        <FrameLayout
+            android:layout_width="210dp"
+            android:layout_height="210dp">
+
+            <ImageView
+                android:id="@+id/_photo"
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                android:layout_gravity="bottom" />
+
+            <ImageButton
+                android:id="@+id/_image_del_btn"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_gravity="end"
+                android:background="@android:color/transparent"
+                android:src="@android:drawable/ic_delete" />
+        </FrameLayout>
+
+
+    </LinearLayout>
+</android.support.v7.widget.CardView>

@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="data_info">This Page will show the logged data along with user input</string>
+</resources>
